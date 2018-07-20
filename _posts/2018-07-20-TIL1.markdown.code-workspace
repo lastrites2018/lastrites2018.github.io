@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "TIL1"
+date:   2018-07-20 10:03:00 +0900
+categories: TIL
+---
+
+TIL 1
+
+다른 블로그 서비스도 있었지만, `깃허브`와 마크다운 문법에 익숙해지기 위해 지킬을 사용하기로 했다.
+
+{% highlight html %}
+
+css는 <head>에 style 안에 들어감.
+.은 class (다중 적용 가능)
+#은 id (문서에 하나만)
+
+
+github 원격 저장소 URL 변경 방법
+
+git remote set-url origin #바꿀주소
+참조 : http://minsone.github.io/git/github-managing-remotes-changing-a-remotes-url
+
+
+{% endhighlight %}
+
+MAX/MIN array에서 쓰는 방법
+
+Math.max.apply(null, arrayname)
+Math.min.apply(null, arrayname)
+
+참조 : https://www.jstips.co/en/javascript/calculate-the-max-min-value-from-an-array/
